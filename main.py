@@ -2,7 +2,7 @@ import os
 from pathlib import Path
 
 OUTPUT_DIR = os.environ.get("OUTPUT_DIR", "/output")
-LINE = "Decision: we ship it Friday, Priya owns the rollback plan, and nobody schedules a follow-up about this follow-up."
+LINE = "Approved: ship Friday, one owner, no follow-up meeting. If it breaks, we meet at the scene of the crime, not in a room about the room."
 
 
 def main():
